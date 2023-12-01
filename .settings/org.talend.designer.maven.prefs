@@ -1,0 +1,4 @@
+PROJECT_GROUPID=org.example.export_talend7_context
+PROJECT_VERSION=8.0.1
+SKIP_LOOP_DEPENDENCY_CHECK=true
+eclipse.preferences.version=1
