@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_huqg0JAkEe6AgLFon_7bmA" name="relationship" dataPackage="_hurH55AkEe6AgLFon_7bmA" JSONFilePath="/home/yunjin/Downloads/relationship.json" Encoding="UTF-8" readbyMode="XPATH">
+    <schema xmi:id="_IjvZ8JWJEe6p59gjDLu2mQ" LimitBoucle="50" AbsoluteXPathQuery="/root/object/relatedItems" flag="ROOT_OBJECT">
+      <schemaTargets xmi:id="_TlyyIJWJEe6p59gjDLu2mQ" RelativeXPathQuery="../baseItem/id" TagName="id"/>
+      <schemaTargets xmi:id="_TlyyIZWJEe6p59gjDLu2mQ" RelativeXPathQuery="../baseItem/version" TagName="version"/>
+      <schemaTargets xmi:id="_TlyyIpWJEe6p59gjDLu2mQ" RelativeXPathQuery="../baseItem/type" TagName="itemType"/>
+      <schemaTargets xmi:id="_UKpLoJWJEe6p59gjDLu2mQ" RelativeXPathQuery="id" TagName="relatedItem"/>
+      <schemaTargets xmi:id="_UKpLoZWJEe6p59gjDLu2mQ" RelativeXPathQuery="version" TagName="relatedVersion"/>
+      <schemaTargets xmi:id="_UKpLopWJEe6p59gjDLu2mQ" RelativeXPathQuery="type" TagName="type"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_hurH55AkEe6AgLFon_7bmA" name="default" dataManager="_huqg0JAkEe6AgLFon_7bmA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hurH6JAkEe6AgLFon_7bmA" id="_1RjuIJAjEe6AgLFon_7bmA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__TT68JWJEe6p59gjDLu2mQ" label="id" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__TT68ZWJEe6p59gjDLu2mQ" label="version" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__TT68pWJEe6p59gjDLu2mQ" label="itemType" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__TT685WJEe6p59gjDLu2mQ" label="relatedItem" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__TT69JWJEe6p59gjDLu2mQ" label="relatedVersion" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__TT69ZWJEe6p59gjDLu2mQ" label="type" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
